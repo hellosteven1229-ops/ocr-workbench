@@ -1,0 +1,47 @@
+# Python and local builds
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.build*/
+build/
+dist/
+*.spec
+*.exe
+*.zip
+*.log
+*-test*.json
+
+# Credentials and runtime settings
+.env
+.env.*
+设置.json
+API凭据.dat
+.api-*.tmp
+
+# Inputs and OCR outputs
+待处理/
+识别结果/
+分批结果/
+图片/
+来源.json
+完成.json
+图片下载失败.txt
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.bmp
+*.tif
+*.tiff
+*.gif
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.xls
+*.xlsx
+*.odt
+*.odp
+*.ods
